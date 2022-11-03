@@ -26,7 +26,6 @@
   "scripts": {
     "build": "rimraf dist && vue-tsc && vite build",
     "prepare": "husky install",
-    "prerelease": "pnpm build",
     "release": "release-it"
   },
   "devDependencies": {
