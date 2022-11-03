@@ -1,0 +1,10 @@
+{
+  "name": "@lewebsimple/ui",
+  "version": "0.0.0",
+  "description": "Vue 3 component library",
+  "author": "",
+  "license": "ISC",
+  "scripts": {},
+  "peerDependencies": {},
+  "devDependencies": {}
+}
