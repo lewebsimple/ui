@@ -20,7 +20,7 @@
     "src",
     "dist"
   ],
-  "types": "./dist/index.d.ts",
+  "types": "./dist/types/index.d.ts",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
   "exports": {

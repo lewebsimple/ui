@@ -1,3 +1,5 @@
+import Test from './components/Test.vue';
+
 export default {
-  hello: () => `Hello world`,
+  Test,
 }

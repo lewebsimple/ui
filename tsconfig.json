@@ -12,7 +12,7 @@
     "resolveJsonModule": true,
     "declaration": true,
     "emitDeclarationOnly": true,
-    "outDir": "./dist",
+    "declarationDir": "./dist/types",
     "sourceMap": true,
     "isolatedModules": true,
     "esModuleInterop": true,
