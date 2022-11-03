@@ -1,5 +1,1 @@
-import Test from "./components/Test.vue";
-
-export default {
-  Test,
-};
+export { default as Alert } from "./components/Alert.vue";
