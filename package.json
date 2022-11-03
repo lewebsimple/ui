@@ -10,6 +10,9 @@
   "bugs": "https://github.com/lewebsimple/ui/issues",
   "author": "Pascal Martineau <pascal@lewebimple.ca>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "src",
     "dist"
