@@ -24,10 +24,7 @@ export default defineConfig({
   },
   vite: {
     resolve: {
-      // alias: {
-      //   "@lewebsimple/ui": resolve(__dirname, "../../src"),
-      // },
-      // dedupe: ["vue"],
+      dedupe: ["vue"],
     },
   },
 });
