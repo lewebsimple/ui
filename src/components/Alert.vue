@@ -1,7 +1,7 @@
 <template>
-  <div role="alert">
-    <div>
-      <span v-if="title">{{ title }}</span>
+  <div role="alert" class="p-3 border-2 border-current rounded">
+    <div v-if="title" class="font-bold">
+      {{ title }}
     </div>
     <div>
       <slot />

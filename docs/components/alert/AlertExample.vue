@@ -3,5 +3,5 @@
 </template>
 
 <script setup lang="ts">
-import { Alert } from "../../../src";
+import { Alert } from "@lewebsimple/ui";
 </script>

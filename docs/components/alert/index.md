@@ -5,6 +5,8 @@ import AlertExample from './AlertExample.vue';
 
 Display highlighted information in a message box.
 
+## Example
+
 <AlertExample />
 
 <<< @/components/alert/AlertExample.vue

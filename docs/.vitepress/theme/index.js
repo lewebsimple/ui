@@ -5,4 +5,4 @@ export default {
   ...DefaultTheme,
   // enhanceApp({ app, router, siteData }) {},
   // setup () {}
-}
+};
