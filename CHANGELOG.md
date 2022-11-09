@@ -1,5 +1,22 @@
 # Changelog
 
+### [0.1.1](https://github.com/lewebsimple/ui/compare/0.1.0...0.1.1) (2022-11-09)
+
+
+### Features
+
+* AlertExample ([3381fc4](https://github.com/lewebsimple/ui/commit/3381fc4b8a7dc250782eaeb4aa4ccac1e8f1a257))
+* default tailwind-preset ([1186f76](https://github.com/lewebsimple/ui/commit/1186f765886cfa3bc12912cd40568f326809b916))
+* Initial Tailwind CSS config ([f4bb272](https://github.com/lewebsimple/ui/commit/f4bb272fa3972d8e1c20ab6af5ba131ae954336e))
+* Initial VitePress config ([8399eaa](https://github.com/lewebsimple/ui/commit/8399eaa3793b9d66a48c7c4eabbaa013307a6c8e))
+* Vue 3 plugin as default export ([01ed9d6](https://github.com/lewebsimple/ui/commit/01ed9d64bc912644c116c9929e3f0ddaee9f894d))
+
+
+### Bug Fixes
+
+* alias @lewebsimple/ui in docs ([8df9fa5](https://github.com/lewebsimple/ui/commit/8df9fa52d1dc564ca9da9b54499fc80e50528048))
+* export components typo ([84aa055](https://github.com/lewebsimple/ui/commit/84aa0551c099f8b0f28f2f81716142cecc13c969))
+
 ## 0.1.0 (2022-11-03)
 
 
