@@ -3,6 +3,11 @@ const colors = require("tailwindcss/colors");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./{docs,src}/**/*.{js,ts,vue}"],
-  presets: [require("./tailwind-preset")],
+  theme: {
+    extend: {
+      colors: {
+        primary: { DEFAULT: colors.blue["500"], ...colors.blue },
+      },
+    },
+  },
 };

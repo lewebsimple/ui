@@ -15,7 +15,8 @@
   },
   "files": [
     "src",
-    "dist"
+    "dist",
+    "tailwind-preset.js"
   ],
   "types": "./dist/types/index.d.ts",
   "main": "./dist/index.umd.js",
