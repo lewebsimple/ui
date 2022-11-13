@@ -1,12 +1,15 @@
-<script setup lang="ts">
-import AlertExample from './AlertExample.vue';
-</script>
 # Alert
 
-Display highlighted information in a message box.
+## Props
 
-## Example
+| Prop name | Description                | Type   | Values | Default |
+| --------- | -------------------------- | ------ | ------ | ------- |
+| title     | Title of the alert message | string | -      |         |
 
-<AlertExample />
+## Slots
 
-<<< @/components/alert/AlertExample.vue
+| Name    | Description                  | Bindings |
+| ------- | ---------------------------- | -------- |
+| default | Content of the alert message |          |
+
+---

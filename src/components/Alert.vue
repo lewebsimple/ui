@@ -4,6 +4,7 @@
       {{ title }}
     </div>
     <div>
+      <!-- @slot Content of the alert message -->
       <slot />
     </div>
   </div>
@@ -11,6 +12,7 @@
 
 <script setup lang="ts">
 const props = defineProps<{
+  /** Title of the alert message */
   title: string;
 }>();
 </script>
