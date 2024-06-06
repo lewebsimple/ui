@@ -9,3 +9,9 @@ export default {
     app.component("UiAlert", UiAlert);
   },
 } as Plugin;
+
+declare module "vue" {
+  export interface GlobalComponents {
+    UiAlert: typeof UiAlert;
+  }
+}
