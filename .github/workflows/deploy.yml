@@ -14,11 +14,11 @@ jobs:
         with:
           node-version: "20"
       - run: pnpm install
-      - run: pnpx nuxt build --preset github_pages
+      - run: pnpx build:docs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./.output/public
+          path: ./docs/.output/public
   deploy:
     needs: build
     permissions:
