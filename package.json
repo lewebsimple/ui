@@ -1,21 +1,35 @@
 {
-  "name": "ui",
-  "private": true,
+  "name": "@lewebsimple/ui",
   "version": "0.0.0",
+  "description": "Websimple components library",
+  "author": "Websimple <info@websimple.com>",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
+    "lint": "eslint . --fix && stylelint . --fix",
+    "prepare": "husky",
     "preview": "vite preview"
   },
   "dependencies": {
     "vue": "^3.4.27"
   },
   "devDependencies": {
+    "@lewebsimple/eslint-config": "^0.9.6",
+    "@lewebsimple/stylelint-config": "^0.9.6",
     "@vitejs/plugin-vue": "^5.0.5",
+    "eslint": "8",
+    "husky": "^9.0.11",
+    "nano-staged": "^0.8.0",
+    "stylelint": "^16.6.1",
     "typescript": "^5.4.5",
     "vite": "^5.2.12",
     "vue-tsc": "^2.0.19"
   },
-  "packageManager": "pnpm@8.15.8+sha512.d1a029e1a447ad90bc96cd58b0fad486d2993d531856396f7babf2d83eb1823bb83c5a3d0fc18f675b2d10321d49eb161fece36fe8134aa5823ecd215feed392"
+  "nano-staged": {
+    "*.{js,ts,vue}": "eslint --fix",
+    "*.{css,scss,vue}": "stylelint --fix"
+  },
+  "packageManager": "pnpm@9.2.0"
 }
